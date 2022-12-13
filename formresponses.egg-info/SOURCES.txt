@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+formresponses/__init__.py
+formresponses/main.py
+formresponses.egg-info/PKG-INFO
+formresponses.egg-info/SOURCES.txt
+formresponses.egg-info/dependency_links.txt
+formresponses.egg-info/requires.txt
+formresponses.egg-info/top_level.txt

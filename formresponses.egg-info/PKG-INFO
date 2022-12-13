@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
-Name: googleforms
+Name: formresponses
 Version: 0.0.1
 Summary: Send Google Forms responses using Python
 Author: J3pe
 Keywords: python,requests,google,forms,form
-Classifier: Intended Audience :: Anyone
+Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: Unix
 Classifier: Operating System :: MacOS :: MacOS X
@@ -13,3 +13,4 @@ Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 
 A package that allows for sending Google Forms responses without even opening a browser.
+See https://github.com/J3pe/googleforms for more information.

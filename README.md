@@ -4,16 +4,16 @@ GoogleForms is a python library for automating  the sending of Google Forms resp
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install googleforms to start using this package for your project.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install formresponses to start using this package for your project.
 
 ```bash
-pip install googleforms
+pip install formresponses==0.0.1
 ```
 
 ## Usage
 
 ```python
-import googleforms as forms
+import formresponses as forms
 
 #Setting the form url
 forms.url("https://docs.google.com/forms/d/IDgoeshere/viewform")
