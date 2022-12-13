@@ -32,7 +32,7 @@ forms.send()
 ```
 
 
-# If you want to be extra
+## If you want to be extra
 
 If you want to be extra and send a little more responses.. include this at the end of your project
 
