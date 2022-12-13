@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+import codecs
 
 VERSION = '0.0.1'
 DESCRIPTION = 'Send Google Forms responses using Python'
