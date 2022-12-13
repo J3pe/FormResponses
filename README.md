@@ -7,8 +7,9 @@ FormResponses is a python library for automating  the sending of Google Forms re
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install formresponses to start using this package for your project.
 
 ```bash
-pip install formresponses==0.0.1
+pip install formresponses
 ```
+Note: If the installed version is lower than 1.0.0, the package wont work!
 
 ## Usage
 
@@ -16,7 +17,7 @@ pip install formresponses==0.0.1
 import formresponses as forms
 
 #Setting the form url
-forms.setUrl("https://docs.google.com/forms/d/IDgoeshere/viewform")
+forms.url("https://docs.google.com/forms/d/IDgoeshere/viewform")
 
 #Choosing what to respond with to each question.
 # Note: If the answer is a multiple choice question, this wont work with more than one answer chosen. 
@@ -39,6 +40,7 @@ If you want to be extra and send a little more responses.. include this at the e
 while True:
     send()
 ```
+Or use threads, it's faster but more complicated, only use this if you are experienced with Python!
 
 ## Contributing
 

@@ -1,1 +1,3 @@
-from formresponses import setUrl, response, send
+from .main import url
+from .main import response
+from .main import send

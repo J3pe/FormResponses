@@ -4,7 +4,7 @@ import requests
 responses = []
 questions = []
 
-def url(url):
+def SetUrl(url):
     global form_url
     global questions
     form_url = url
@@ -23,7 +23,7 @@ def url(url):
     form_url = form_url + "formResponse"
 
 
-def response(question, response):
+def FormResponse(question, response):
     global responses
     if form_url:
         try:
@@ -31,7 +31,7 @@ def response(question, response):
         except:
             responses.append(response)
 
-def send():
+def SendResponses():
     data = {}
     qr = dict(zip(questions, responses))
     data.update(qr)
