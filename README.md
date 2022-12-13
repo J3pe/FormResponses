@@ -1,6 +1,6 @@
-# GoogleForms
+# FormResponses
 
-GoogleForms is a python library for automating  the sending of Google Forms responses. Made to be as easy to understand and use as possible! This removes all the annoying parts and makes it as simple as you could imagine.
+FormResponses is a python library for automating  the sending of Google Forms responses. Made to be as easy to understand and use as possible! This removes all the annoying parts and makes it as simple as you could imagine.
 
 ## Installation
 
