@@ -9,7 +9,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install formres
 ```bash
 pip install formresponses
 ```
-Note: If the installed version is lower than 1.0.0, the package wont work!
+Note: If the installed version is lower than 0.1.0, the package wont work!
 
 ## Usage
 
