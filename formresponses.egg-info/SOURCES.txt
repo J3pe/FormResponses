@@ -2,7 +2,7 @@ LICENSE.txt
 README.md
 setup.py
 formresponses/__init__.py
-formresponses/main.py
+formresponses/formresponses.py
 formresponses.egg-info/PKG-INFO
 formresponses.egg-info/SOURCES.txt
 formresponses.egg-info/dependency_links.txt
