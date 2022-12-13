@@ -30,6 +30,16 @@ forms.response(2, "Wow, I can't believe this works!")
 forms.send()
 ```
 
+
+# If you want to be extra
+
+If you want to be extra and send a little more responses.. include this at the end of your project
+
+```python
+while True:
+    send()
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
