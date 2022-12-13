@@ -16,7 +16,7 @@ pip install formresponses==0.0.1
 import formresponses as forms
 
 #Setting the form url
-forms.url("https://docs.google.com/forms/d/IDgoeshere/viewform")
+forms.setUrl("https://docs.google.com/forms/d/IDgoeshere/viewform")
 
 #Choosing what to respond with to each question.
 # Note: If the answer is a multiple choice question, this wont work with more than one answer chosen. 
