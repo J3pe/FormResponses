@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 DESCRIPTION = 'Send Google Forms responses using Python'
 LONG_DESCRIPTION = 'A package that allows for sending Google Forms responses without even opening a browser.\nSee https://github.com/J3pe/googleforms for more information.'
 

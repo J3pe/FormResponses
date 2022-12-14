@@ -38,4 +38,4 @@ def send():
     headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"}
     r = requests.post(url=form_url, data=data, headers=headers)
     if r.status_code != 200:
-        print("[404] googleForms: Something went wrong. Check the documentation for more information.")
+        print("[404] FormResponses: Something went wrong. Check the documentation for more information. https://github.com/J3pe/FormResponses")
