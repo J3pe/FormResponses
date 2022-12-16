@@ -1,5 +1,5 @@
 import requests
-
+import re
 
 responses = []
 questions = []
@@ -14,13 +14,12 @@ def url(url):
         if "entry" in n:
             if not "data" in n:
                 questions.append(n.replace("_sentinel", ""))
-    form_url = form_url.replace("?usp=sf_link", "")
-    form_url = form_url.replace("viewform","")
-    form_url = form_url.replace("edit","")
-    size = len(form_url)
-    if form_url[size-1] != "/":
-        form_url = form_url+"/"
-    form_url = form_url + "formResponse"
+    form_url = re.sub(r"\?.*|viewform|edit", "", form_url)
+
+    if not form_url.endswith("/"):
+        form_url += "/"
+
+    form_url += "formResponse"
 
 
 def response(question, response):
