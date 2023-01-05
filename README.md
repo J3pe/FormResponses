@@ -38,7 +38,7 @@ If you want to be extra and send a little more responses.. include this at the e
 
 ```python
 while True:
-    send()
+    forms.send()
 ```
 Or use threads, it's faster but more complicated, only use this if you are experienced with Python!
 
